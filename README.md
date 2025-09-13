@@ -29,11 +29,6 @@ data/housing.csv
 git clone https://github.com/moonmido/house-price-prediction-linear-regression.git
 cd house-price-prediction-linear-regression
 
-# Create a virtual environment (optional)
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-
 # Install dependencies
 pip install -r requirements.txt
 
