@@ -1,5 +1,5 @@
 # house-price-prediction-linear-regression
-#Description
+# Description
 
 Predict house prices using Linear Regression on the Boston Housing Dataset.
 All features except the target MEDV are used to train the model. The project includes:
@@ -14,16 +14,16 @@ Optional outlier handling: Filter extreme values to improve visualization and an
 
 This project is ideal for learning regression modeling, evaluation metrics, and feature visualization in Python.
 
-#Dataset
+# Dataset
 The dataset used is the Boston Housing Dataset.
-#Features used:
+# Features used:
 All columns except MEDV (example: CRIM, ZN, INDUS, CHAS, NOX, RM, AGE, DIS, RAD, TAX, PTRATIO, B, LSTAT)
-#Target:
+# Target:
 MEDV – Median value of owner-occupied homes in $1000s
-#File location:
+# File location:
 data/housing.csv
 
-#Installation
+# Installation
 
 # Clone the repo
 git clone https://github.com/moonmido/house-price-prediction-linear-regression.git
@@ -37,7 +37,7 @@ venv\Scripts\activate     # Windows
 # Install dependencies
 pip install -r requirements.txt
 
-#Results
+# Results
 Example metrics (your results may vary):
 
 R²: 0.65
